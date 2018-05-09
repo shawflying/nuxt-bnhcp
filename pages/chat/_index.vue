@@ -28,7 +28,7 @@
   </div>
 </template>
 <script>
-import socket from '~plugins/socket.io'
+import socket from '~/plugins/socket.io'
 export default {
   bodyAttrs: {
     class: 'fff'

@@ -70,8 +70,8 @@
   </div>
 </template>
 <script>
-import headerTop from '~components/common/header.vue'
-import layerMsg from '~components/layer/layerMsg.vue'
+import headerTop from '~/components/common/header.vue'
+import layerMsg from '~/components/layer/layerMsg.vue'
 import {mapState, mapMutations} from 'vuex'
 import {mostAddClass} from '../../ajax/getData.js'
 import {filterWeek, getStore} from '../../config/common.js'

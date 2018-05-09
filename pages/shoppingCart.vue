@@ -70,7 +70,7 @@
 </template>
 
 <script>
-import footerTab from '~components/home/Footertabs.vue'
+import footerTab from '~/components/home/Footertabs.vue'
 import {mapState, mapMutations} from 'vuex'
 import {getCartList, deleteCart} from '../ajax/getData.js'
 import {getStore} from '../config/common.js'

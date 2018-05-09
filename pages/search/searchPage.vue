@@ -26,7 +26,7 @@
 </div>
 </template>
 <script>
-import courseHeader from '~components/common/courseHeader.vue'
+import courseHeader from '~/components/common/courseHeader.vue'
 import {removeStore, getStore} from '../../config/common.js'
 export default {
   data () {

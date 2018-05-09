@@ -5,7 +5,7 @@ var api = require('./api')
 
 const app = express()
 const host = process.env.HOST || '127.0.0.1'
-const port = process.env.PORT || 6800
+const port = process.env.PORT || 6600
 
 var bodyParser = require('body-parser')
 

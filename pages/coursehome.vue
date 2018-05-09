@@ -112,9 +112,9 @@
   </div>
 </template>
 <script>
-  import axios from '~plugins/axios'
-  import courseList from '~components/common/courselist.vue'
-  import courseHeader from '~components/common/courseHeader.vue'
+  import axios from '~/plugins/axios'
+  import courseList from '~/components/common/courselist.vue'
+  import courseHeader from '~/components/common/courseHeader.vue'
   import {mapState, mapMutations} from 'vuex'
   import {syncClass, filter, courselist, getleckCourse} from '../ajax/getData'
   export default {

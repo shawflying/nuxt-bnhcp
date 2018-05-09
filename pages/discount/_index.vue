@@ -85,7 +85,7 @@
   </div>
 </template>
 <script>
-import topHrader from '~components/common/header.vue'
+import topHrader from '~/components/common/header.vue'
 export default {
   data () {
     return {

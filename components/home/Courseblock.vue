@@ -4,7 +4,7 @@
   </div>
 </template>
 <script>
-import Moreclass from '~components/common/Moreclass.vue'
+import Moreclass from '~/components/common/Moreclass.vue'
 export default {
   props: ['allparentinfo'],
   components: {

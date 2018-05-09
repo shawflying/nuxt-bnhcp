@@ -15,7 +15,7 @@
 <script>
 import { setStore } from '../config/common.js'
 import { userLongin } from '../ajax/getData.js'
-import layerMsg from '~components/layer/layerMsg.vue'
+import layerMsg from '~/components/layer/layerMsg.vue'
 export default {
   data () {
     return {

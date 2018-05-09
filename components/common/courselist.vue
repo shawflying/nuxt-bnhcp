@@ -55,7 +55,7 @@
 import {mapState, mapMutations} from 'vuex'
 import {loadMore} from '../mixin/mixin.js'
 import loading from './loading.vue'
-import noContent from '~components/common/no_content/no_content.vue'
+import noContent from '~/components/common/no_content/no_content.vue'
 import {courselist, getleckCourse} from '../../ajax/getData.js'
 import {filterWeek} from '../../config/common.js'
 export default {

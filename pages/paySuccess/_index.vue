@@ -2,7 +2,7 @@
   <pay-success :title="title"></pay-success>
 </template>
 <script>
-import paySuccess from '~components/common/success.vue'
+import paySuccess from '~/components/common/success.vue'
 export default {
   data () {
     return {

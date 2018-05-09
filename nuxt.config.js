@@ -3,18 +3,18 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'bnhcp',
+    title: '到喜啦',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' },
       { hid: 'description', name: 'description', content: 'bnhcp project' }
     ],
     link: [
-        { rel: 'stylesheet', href: '/common/common.css' }
+      { rel: 'stylesheet', href: '/common/common.css' }
     ]
   },
   env: {
-    HOST_URL: process.env.HOST_URL || 'http://localhost:3000'
+    HOST_URL: process.env.HOST_URL || 'http://localhost:6600'
   },
   /*
   ** Customize the progress-bar colornuxt
@@ -33,7 +33,7 @@ module.exports = {
     /*
     ** Run ESLINT on save
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
       if (ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',

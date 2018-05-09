@@ -50,13 +50,13 @@
   </div>
 </template>
 <script>
-import headerTop from '~components/common/header.vue'
-import Footertabs from '~components/home/Footertabs.vue'
+import headerTop from '~/components/common/header.vue'
+import Footertabs from '~/components/home/Footertabs.vue'
 import {mapMutations} from 'vuex'
-import loading from '~components/common/loading.vue'
+import loading from '~/components/common/loading.vue'
 import {getOrderList, submitOrder} from '../../ajax/getData.js'
 import {getStore} from '../../config/common.js'
-import noContent from '~components/common/no_content/no_content.vue'
+import noContent from '~/components/common/no_content/no_content.vue'
 export default {
   data () {
     return {

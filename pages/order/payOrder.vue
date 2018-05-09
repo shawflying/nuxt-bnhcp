@@ -36,9 +36,9 @@
   </div>
 </template>
 <script>
-import headerTop from '~components/common/header.vue'
-import yesBtn from '~components/common/subscribe/yesbtn.vue'
-import computedTime from '~components/common/computedTime.vue'
+import headerTop from '~/components/common/header.vue'
+import yesBtn from '~/components/common/subscribe/yesbtn.vue'
+import computedTime from '~/components/common/computedTime.vue'
 import {paySuccess} from '../../ajax/getData.js'
 import {mapState} from 'vuex'
 import {getStore} from '../../config/common.js'

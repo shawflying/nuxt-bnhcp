@@ -23,7 +23,7 @@
 	</div>
 </template>
 <script>
-import Headerchunk from '~components/common/Headerchunk.vue'
+import Headerchunk from '~/components/common/Headerchunk.vue'
 import {mapState, mapMutations} from 'vuex'
 export default {
   props: ['parentHeadinfo'],

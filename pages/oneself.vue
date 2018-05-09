@@ -29,7 +29,7 @@
   </div>
 </template>
 <script>
-import myFooter from '~components/home/Footertabs.vue'
+import myFooter from '~/components/home/Footertabs.vue'
 export default {
   components: {
     myFooter

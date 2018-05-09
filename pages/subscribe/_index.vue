@@ -7,10 +7,10 @@
   </div>
 </template>
 <script>
-import headerTop from '~components/common/header.vue'
-import detailTime from '~components/common/subscribe/detailTime.vue'
-import valiPhone from '~components/common/subscribe/valiPhone.vue'
-import yesBtn from '~components/common/subscribe/yesbtn.vue'
+import headerTop from '~/components/common/header.vue'
+import detailTime from '~/components/common/subscribe/detailTime.vue'
+import valiPhone from '~/components/common/subscribe/valiPhone.vue'
+import yesBtn from '~/components/common/subscribe/yesbtn.vue'
 export default {
   data () {
     return {
