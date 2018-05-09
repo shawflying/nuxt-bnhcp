@@ -7,8 +7,8 @@
           <div class="ser_rel_con">
             <div class="content_txt_box">
               <b href="#" class="con_l">
-                <img :src="'/img/teacherHead/'+items.teacher_actor" height="20%" width="100%">
-                <i class="name_teac">{{items.teacherName}}</i>
+                <img :src="'/'+items.teacher_photo" height="20%" width="100%">
+                <i class="name_teac">{{items.teacher_name}}</i>
               </b>
               <ul class="con_r on" style="width:80%;padding-left:6px;">
                 <li class="tit_h1">
