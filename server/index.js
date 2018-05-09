@@ -1,11 +1,11 @@
-import Nuxt from 'nuxt'
-import express from 'express'
+var Nuxt = require('../node_modules/nuxt')
+var express = require('express')
 
-import api from './api'
+var api = require('./api')
 
 const app = express()
-const host = process.env.HOST || '192.168.1.110'
-const port = process.env.PORT || 8000
+const host = process.env.HOST || '127.0.0.1'
+const port = process.env.PORT || 6800
 
 var bodyParser = require('body-parser')
 
@@ -33,7 +33,7 @@ io.on('connection', (socket) => {
 })
 
 // Start nuxt.js
-async function start () {
+async function start() {
   // Import and Set Nuxt.js options
   let config = require('../nuxt.config.js')
   config.dev = !(process.env.NODE_ENV === 'production')
